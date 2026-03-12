@@ -5,7 +5,7 @@ import numpy as np
 
 # --- PAGE SETUP ---
 st.set_page_config(page_title="Dynamic E-Freight Master Model", layout="wide")
-st.title("🚛 Intelligent E-Freight TCO Dashboard")
+st.title("🚛 E-Freight TCO Dashboard")
 st.markdown("Fully dynamic architecture with automated financial interpretations.")
 
 # --- SIDEBAR 1: FREIGHT CATEGORY (THE LINKED DICTIONARY) ---
