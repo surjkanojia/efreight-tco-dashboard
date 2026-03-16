@@ -121,7 +121,7 @@ with chart_col2:
     st.pyplot(fig2)
 
 # --- AUTOMATED TEXT INTERPRETATION ---
-st.info(f"**Automated Data Interpretation:** For a **{selected_freight}** operating {annual_km:,} km per year, the Electric Vehicle requires a higher upfront investment but costs significantly less to operate (₹{ev_cpm_standard:.2f}/km vs ₹{diesel_cpm:.2f}/km). Based on current parameters, the EV completely recovers its initial cost premium by **Year {breakeven_year}**. Over the full {lifespan}-year lifecycle, the EV strategy yields a net financial saving of **₹{(tco_diesel - tco_ev)/100000:.2f} Lakhs**, not including the end-of-life battery salvage value which returns an estimated ₹{battery_salvage_value:,.0f} to the operator.")
+st.info(f"**Data Interpretation:** For a **{selected_freight}** operating {annual_km:,} km per year, the Electric Vehicle requires a higher upfront investment but costs significantly less to operate (₹{ev_cpm_standard:.2f}/km vs ₹{diesel_cpm:.2f}/km). Based on current parameters, the EV completely recovers its initial cost premium by **Year {breakeven_year}**. Over the full {lifespan}-year lifecycle, the EV strategy yields a net financial saving of **₹{(tco_diesel - tco_ev)/100000:.2f} Lakhs**, not including the end-of-life battery salvage value which returns an estimated ₹{battery_salvage_value:,.0f} to the operator.")
 st.divider()
 
 # --- 3. CHARGING STRATEGY COMPARISON ---
